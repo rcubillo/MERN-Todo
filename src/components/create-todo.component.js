@@ -119,11 +119,11 @@ export default class CreateTodo extends Component {
                         />
                         <label className="form-check-label"> High </label>
             </div>
-
-
+         </div>
+         <div className="form-group">
+             <input type="submit" value="Create Todo" className="btn btn-primary"></input>
 
          </div>
-         
         </form>
       </div>
     );
